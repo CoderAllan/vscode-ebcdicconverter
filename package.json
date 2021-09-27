@@ -1,0 +1,158 @@
+{
+  "name": "vscode-ebcdicconverter",
+  "publisher": "coderAllan",
+  "displayName": "EBCDIC Converter",
+  "description": "Converts the current file or the current selection from Ebcdic to Ascii or from Ascii to Ebcdic.",
+  "icon": "logo.png",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "https://github.com/CoderAllan/vscode-ebcdicconverter",
+  "author": {
+    "name": "Allan Simonsen",
+    "url": "https://github.com/CoderAllan"
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "ebcdic",
+    "ascii",
+    "converter"
+  ],
+  "activationEvents": [
+    "onCommand:vscode-ebcdicconverter.ebcdic0037ToAscii",
+    "onCommand:vscode-ebcdicconverter.asciiToEbcdic0037",
+    "onCommand:vscode-ebcdicconverter.ebcdic0273ToAscii",
+    "onCommand:vscode-ebcdicconverter.asciiToEbcdic0273",
+    "onCommand:vscode-ebcdicconverter.ebcdic0277ToAscii",
+    "onCommand:vscode-ebcdicconverter.asciiToEbcdic0277",
+    "onCommand:vscode-ebcdicconverter.ebcdic0278ToAscii",
+    "onCommand:vscode-ebcdicconverter.asciiToEbcdic0278",
+    "onCommand:vscode-ebcdicconverter.ebcdic0280ToAscii",
+    "onCommand:vscode-ebcdicconverter.asciiToEbcdic0280",
+    "onCommand:vscode-ebcdicconverter.ebcdic0284ToAscii",
+    "onCommand:vscode-ebcdicconverter.asciiToEbcdic0284",
+    "onCommand:vscode-ebcdicconverter.ebcdic0285ToAscii",
+    "onCommand:vscode-ebcdicconverter.asciiToEbcdic0285",
+    "onCommand:vscode-ebcdicconverter.ebcdic0297ToAscii",
+    "onCommand:vscode-ebcdicconverter.asciiToEbcdic0297",
+    "onCommand:vscode-ebcdicconverter.ebcdic0500ToAscii",
+    "onCommand:vscode-ebcdicconverter.asciiToEbcdic0500",
+    "onCommand:vscode-ebcdicconverter.ebcdic0871ToAscii",
+    "onCommand:vscode-ebcdicconverter.asciiToEbcdic0871",
+    "onCommand:vscode-ebcdicconverter.ebcdic1047ToAscii",
+    "onCommand:vscode-ebcdicconverter.asciiToEbcdic1047"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [{
+        "command": "vscode-ebcdicconverter.ebcdic0037ToAscii",
+        "title": "Convert Ebcdic0037 to Ascii"
+      },
+      {
+        "command": "vscode-ebcdicconverter.asciiToEbcdic0037",
+        "title": "Convert Ascii to Ebcdic0037"
+      },
+      {
+        "command": "vscode-ebcdicconverter.ebcdic0273ToAscii",
+        "title": "Convert Ebcdic0273 to Ascii"
+      },
+      {
+        "command": "vscode-ebcdicconverter.asciiToEbcdic0273",
+        "title": "Convert Ascii to Ebcdic0273"
+      },
+      {
+        "command": "vscode-ebcdicconverter.ebcdic0277ToAscii",
+        "title": "Convert Ebcdic0277 to Ascii"
+      },
+      {
+        "command": "vscode-ebcdicconverter.asciiToEbcdic0277",
+        "title": "Convert Ascii to Ebcdic0277"
+      },
+      {
+        "command": "vscode-ebcdicconverter.ebcdic0278ToAscii",
+        "title": "Convert Ebcdic0278 to Ascii"
+      },
+      {
+        "command": "vscode-ebcdicconverter.asciiToEbcdic0278",
+        "title": "Convert Ascii to Ebcdic0278"
+      },
+      {
+        "command": "vscode-ebcdicconverter.ebcdic0280ToAscii",
+        "title": "Convert Ebcdic0280 to Ascii"
+      },
+      {
+        "command": "vscode-ebcdicconverter.asciiToEbcdic0280",
+        "title": "Convert Ascii to Ebcdic0280"
+      },
+      {
+        "command": "vscode-ebcdicconverter.ebcdic0284ToAscii",
+        "title": "Convert Ebcdic0284 to Ascii"
+      },
+      {
+        "command": "vscode-ebcdicconverter.asciiToEbcdic0284",
+        "title": "Convert Ascii to Ebcdic0284"
+      },
+      {
+        "command": "vscode-ebcdicconverter.ebcdic0285ToAscii",
+        "title": "Convert Ebcdic0285 to Ascii"
+      },
+      {
+        "command": "vscode-ebcdicconverter.asciiToEbcdic0285",
+        "title": "Convert Ascii to Ebcdic0285"
+      },
+      {
+        "command": "vscode-ebcdicconverter.ebcdic0297ToAscii",
+        "title": "Convert Ebcdic0297 to Ascii"
+      },
+      {
+        "command": "vscode-ebcdicconverter.asciiToEbcdic0297",
+        "title": "Convert Ascii to Ebcdic0297"
+      },
+      {
+        "command": "vscode-ebcdicconverter.ebcdic0500ToAscii",
+        "title": "Convert Ebcdic0500 to Ascii"
+      },
+      {
+        "command": "vscode-ebcdicconverter.asciiToEbcdic0500",
+        "title": "Convert Ascii to Ebcdic0500"
+      },
+      {
+        "command": "vscode-ebcdicconverter.ebcdic0871ToAscii",
+        "title": "Convert Ebcdic0871 to Ascii"
+      },
+      {
+        "command": "vscode-ebcdicconverter.asciiToEbcdic0871",
+        "title": "Convert Ascii to Ebcdic0871"
+      },
+      {
+        "command": "vscode-ebcdicconverter.ebcdic1047ToAscii",
+        "title": "Convert Ebcdic1047 to Ascii"
+      },
+      {
+        "command": "vscode-ebcdicconverter.asciiToEbcdic1047",
+        "title": "Convert Ascii to Ebcdic1047"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "webpack --mode production",
+    "webpack": "webpack --mode development",
+    "webpack-dev": "webpack --mode development --watch",
+    "compile": "tsc -p",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.1",
+    "@types/vscode": "^1.60.0",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "webpack": "^5.54.0",
+    "webpack-cli": "^4.8.0"
+  }
+}

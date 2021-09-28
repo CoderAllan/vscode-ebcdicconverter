@@ -1,4 +1,3 @@
-import { Console } from 'console';
 import * as vscode from 'vscode';
 
 export abstract class Convert {

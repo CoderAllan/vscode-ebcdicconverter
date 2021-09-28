@@ -12,12 +12,28 @@ Ascii as described on [Wikipedia](https://en.wikipedia.org/wiki/ASCII): Abbrevia
 
 ## Convert entire file
 
-If you dont select anything in the currently open file then the entire file will be converted.
+If you don't select anything in the currently open file then the entire file will be converted.
 
 ![Convert entire file](https://github.com/CoderAllan/vscode-ebcdicconverter/raw/main/images/Convert.gif)
 
 ## Convert selection
 
-If you select a range of characters in the currently open file the only the selction will be converted.
+If you select a range of characters in the currently open file then only the selection will be converted.
 
 ![Convert selection](https://github.com/CoderAllan/vscode-ebcdicconverter/raw/main/images/ConvertSelection.gif)
+
+## Supported codepages
+
+* Ebcdic 0037
+* Ebcdic 0273
+* Ebcdic 0277
+* Ebcdic 0278
+* Ebcdic 0280
+* Ebcdic 0284
+* Ebcdic 0285
+* Ebcdic 0297
+* Ebcdic 0500
+* Ebcdic 0871
+* Ebcdic 1047
+
+Complete list of codepages on [Wikipedia](https://en.wikipedia.org/wiki/Code_page#EBCDIC-based_code_pages)

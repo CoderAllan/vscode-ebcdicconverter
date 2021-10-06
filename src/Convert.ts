@@ -9,8 +9,8 @@ export abstract class Convert {
     }
     const selection = editor.selection;
     if (selection === undefined || selection.isEmpty) {
-      var firstLine = editor.document.lineAt(0);
-      var lastLine = editor.document.lineAt(editor.document.lineCount - 1);
+      const firstLine = editor.document.lineAt(0);
+      const lastLine = editor.document.lineAt(editor.document.lineCount - 1);
       const textRange = new vscode.Range(firstLine.range.start, lastLine.range.end);
       const text = editor.document.getText(textRange);
       const convertedText = doMapping(text);
@@ -42,7 +42,7 @@ export abstract class Convert {
       let convertedText: string = '';
       for (let i = 0; i < text.length; i++) {
         const charCode: number = text.charCodeAt(i);
-        if (charCode != 0xd) { // The conversion will mess up if we convert both \r (0xd) and \n (0xa), that is why we dont convert \r
+        if (charCode !== 0xd) { // The conversion will mess up if we convert both \r (0xd) and \n (0xa), that is why we dont convert \r
           convertedText += String.fromCharCode(mappingArray[charCode]);
         }
       }

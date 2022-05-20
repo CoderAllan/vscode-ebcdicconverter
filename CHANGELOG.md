@@ -1,5 +1,9 @@
 # Change Log
 
+## Version 1.0.3
+
+- Maintenance: Bump packages to latest
+
 ## Version 1.0.2
 
 - Bugfix: Fixed issue when converting entire file.

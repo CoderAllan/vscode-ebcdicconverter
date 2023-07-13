@@ -4,7 +4,7 @@
   "displayName": "EBCDIC Converter",
   "description": "Converts the current file or the current selection from Ebcdic to Ascii or from Ascii to Ebcdic.",
   "icon": "logo.png",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "repository": "https://github.com/CoderAllan/vscode-ebcdicconverter",
   "author": {

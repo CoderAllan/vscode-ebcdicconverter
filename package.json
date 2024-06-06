@@ -147,8 +147,8 @@
     "watch": "tsc -watch -p ./"
   },
   "devDependencies": {
-    "@types/node": "^20.14.1",
-    "@types/vscode": "^1.89.0",
+    "@types/node": "^20.14.2",
+    "@types/vscode": "^1.90.0",
     "ts-loader": "^9.5.1",
     "typescript": "^5.4.5",
     "webpack": "^5.91.0",

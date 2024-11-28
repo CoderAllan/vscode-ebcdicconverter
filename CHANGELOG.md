@@ -1,5 +1,9 @@
 # Change Log
 
+## Version 1.0.6
+
+- Maintenance: Bump packages to latest
+
 ## Version 1.0.5
 
 - Maintenance: Bump packages to latest
